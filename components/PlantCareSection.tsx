@@ -51,14 +51,14 @@ export default function PlantCareSection() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Expert Horticultural Guide</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Plant Care & Maintenance Tips
           </h2>
-          <p className="mt-3 text-base text-emerald-800/80 dark:text-emerald-200/80">
+          <p className="mt-3 text-base text-emerald-800/80">
             Follow these essential care practices from SVDN master botanists to keep your plants thriving.
           </p>
         </div>
@@ -78,20 +78,20 @@ export default function PlantCareSection() {
                   className="w-full p-6 text-left flex items-center justify-between gap-4 hover:bg-emerald-500/5 transition-colors"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+                    <div className="w-12 h-12 rounded-xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 shrink-0">
                       <Icon className="w-6 h-6" />
                     </div>
                     <div>
-                      <h3 className="font-serif text-lg font-bold text-emerald-950 dark:text-emerald-50">
+                      <h3 className="font-serif text-lg font-bold text-emerald-950">
                         {item.title}
                       </h3>
-                      <p className="text-xs text-emerald-800/70 dark:text-emerald-300/70 font-light mt-0.5">
+                      <p className="text-xs text-emerald-800/70 font-light mt-0.5">
                         {item.summary}
                       </p>
                     </div>
                   </div>
 
-                  <div className={`p-2 rounded-full bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>
+                  <div className={`p-2 rounded-full bg-emerald-500/10 text-emerald-700 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>
                     <ChevronDown className="w-4 h-4" />
                   </div>
                 </button>
@@ -103,7 +103,7 @@ export default function PlantCareSection() {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3 }}
-                      className="px-6 pb-6 pt-2 text-sm text-emerald-900/80 dark:text-emerald-200/80 leading-relaxed border-t border-emerald-500/10"
+                      className="px-6 pb-6 pt-2 text-sm text-emerald-900/80 leading-relaxed border-t border-emerald-500/10"
                     >
                       <p>{item.detail}</p>
                     </motion.div>

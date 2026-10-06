@@ -39,11 +39,11 @@ export default function WhyChooseUs() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>The SVDN Advantage</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Why Contractors & Farmers Choose Us
           </h2>
         </div>
@@ -61,13 +61,13 @@ export default function WhyChooseUs() {
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
                 className="glass-card p-8 rounded-3xl border border-emerald-500/20 hover:border-emerald-500/40 transition-all duration-300 group"
               >
-                <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mb-6 group-hover:scale-110 group-hover:bg-emerald-500 group-hover:text-white transition-all">
+                <div className="w-14 h-14 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-600 mb-6 group-hover:scale-110 group-hover:bg-emerald-500 group-hover:text-white transition-all">
                   <Icon className="w-7 h-7" />
                 </div>
-                <h3 className="font-serif text-xl font-bold text-emerald-950 dark:text-emerald-50 mb-3">
+                <h3 className="font-serif text-xl font-bold text-emerald-950 mb-3">
                   {reason.title}
                 </h3>
-                <p className="text-sm text-emerald-800/80 dark:text-emerald-200/80 leading-relaxed">
+                <p className="text-sm text-emerald-800/80 leading-relaxed">
                   {reason.description}
                 </p>
               </motion.div>

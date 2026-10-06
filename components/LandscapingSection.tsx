@@ -32,14 +32,14 @@ export default function LandscapingSection() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Commercial & Bulk Orders</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Landscaping & Large Scale Supply
           </h2>
-          <p className="mt-3 text-base text-emerald-800/80 dark:text-emerald-200/80">
+          <p className="mt-3 text-base text-emerald-800/80">
             We specialize in fulfilling bulk plant contracts for infrastructure developers, government avenue forestry, and commercial fruit orchards.
           </p>
         </div>
@@ -50,42 +50,42 @@ export default function LandscapingSection() {
           {/* Left Service Highlights */}
           <div className="lg:col-span-6 space-y-6">
             <div className="glass-card p-6 rounded-3xl border border-emerald-500/20 flex gap-4">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+              <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 shrink-0">
                 <Building2 className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold text-emerald-950 dark:text-emerald-50 mb-1">
+                <h3 className="font-serif text-xl font-bold text-emerald-950 mb-1">
                   Highway & Infra Plantation
                 </h3>
-                <p className="text-xs sm:text-sm text-emerald-800/80 dark:text-emerald-200/80 leading-relaxed">
+                <p className="text-xs sm:text-sm text-emerald-800/80 leading-relaxed">
                   Bulk supply of uniform avenue trees (Tabebuia, Mahogany, Neem, Spathodea) for NHAI highways, smart city bypasses, and industrial corridors.
                 </p>
               </div>
             </div>
 
             <div className="glass-card p-6 rounded-3xl border border-emerald-500/20 flex gap-4">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+              <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 shrink-0">
                 <Trees className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold text-emerald-950 dark:text-emerald-50 mb-1">
+                <h3 className="font-serif text-xl font-bold text-emerald-950 mb-1">
                   Commercial Farm Orchards
                 </h3>
-                <p className="text-xs sm:text-sm text-emerald-800/80 dark:text-emerald-200/80 leading-relaxed">
+                <p className="text-xs sm:text-sm text-emerald-800/80 leading-relaxed">
                   High-density grafted fruit saplings (Mango, Thai Pink Guava, Citrus, Sapota) delivered with planting layout consultation.
                 </p>
               </div>
             </div>
 
             <div className="glass-card p-6 rounded-3xl border border-emerald-500/20 flex gap-4">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400 shrink-0">
+              <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-600 shrink-0">
                 <ShieldAlert className="w-6 h-6" />
               </div>
               <div>
-                <h3 className="font-serif text-xl font-bold text-emerald-950 dark:text-emerald-50 mb-1">
+                <h3 className="font-serif text-xl font-bold text-emerald-950 mb-1">
                   Dedicated Transport Logistics
                 </h3>
-                <p className="text-xs sm:text-sm text-emerald-800/80 dark:text-emerald-200/80 leading-relaxed">
+                <p className="text-xs sm:text-sm text-emerald-800/80 leading-relaxed">
                   Carefully stacked truck loading with root moisture protection guarantees zero damage during interstate transport across India.
                 </p>
               </div>
@@ -94,10 +94,10 @@ export default function LandscapingSection() {
 
           {/* Right Bulk Order Quote Form */}
           <div className="lg:col-span-6 glass-card p-8 rounded-3xl border border-emerald-500/30 shadow-xl">
-            <h3 className="font-serif text-2xl font-bold text-emerald-950 dark:text-emerald-50 mb-2">
+            <h3 className="font-serif text-2xl font-bold text-emerald-950 mb-2">
               Request a Bulk Project Quote
             </h3>
-            <p className="text-xs text-emerald-800/70 dark:text-emerald-300/70 mb-6">
+            <p className="text-xs text-emerald-800/70 mb-6">
               Fill out your requirement below to receive custom wholesale pricing within 2 hours.
             </p>
 
@@ -106,10 +106,10 @@ export default function LandscapingSection() {
                 <div className="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-500 mx-auto flex items-center justify-center">
                   <CheckCircle2 className="w-10 h-10" />
                 </div>
-                <h4 className="font-serif text-2xl font-bold text-emerald-950 dark:text-emerald-50">
+                <h4 className="font-serif text-2xl font-bold text-emerald-950">
                   Quote Request Received!
                 </h4>
-                <p className="text-xs text-emerald-800/80 dark:text-emerald-200/80 max-w-sm mx-auto">
+                <p className="text-xs text-emerald-800/80 max-w-sm mx-auto">
                   Thank you, <strong className="font-semibold">{formData.name}</strong>. Our bulk sales manager will contact you on <strong className="font-semibold">{formData.phone}</strong> shortly.
                 </p>
                 <button
@@ -123,7 +123,7 @@ export default function LandscapingSection() {
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                    <label className="block text-xs font-bold text-emerald-950 mb-1">
                       Your Full Name *
                     </label>
                     <input
@@ -132,11 +132,11 @@ export default function LandscapingSection() {
                       placeholder="e.g. Rajesh Kumar"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs font-medium text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                      className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs font-medium text-emerald-950 focus:outline-none focus:border-emerald-500"
                     />
                   </div>
                   <div>
-                    <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                    <label className="block text-xs font-bold text-emerald-950 mb-1">
                       Phone / WhatsApp *
                     </label>
                     <input
@@ -145,20 +145,20 @@ export default function LandscapingSection() {
                       placeholder="+91 98765 43210"
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs font-medium text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                      className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs font-medium text-emerald-950 focus:outline-none focus:border-emerald-500"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                    <label className="block text-xs font-bold text-emerald-950 mb-1">
                       Project Type
                     </label>
                     <select
                       value={formData.projectType}
                       onChange={(e) => setFormData({ ...formData, projectType: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs font-medium text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                      className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs font-medium text-emerald-950 focus:outline-none focus:border-emerald-500"
                     >
                       <option value="Commercial Orchard">Commercial Farm Orchard</option>
                       <option value="Highway Infrastructure">Highway & Avenue Infra</option>
@@ -168,7 +168,7 @@ export default function LandscapingSection() {
                     </select>
                   </div>
                   <div>
-                    <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                    <label className="block text-xs font-bold text-emerald-950 mb-1">
                       Estimated Sapling Quantity
                     </label>
                     <input
@@ -176,13 +176,13 @@ export default function LandscapingSection() {
                       placeholder="e.g. 2,500 Saplings"
                       value={formData.quantity}
                       onChange={(e) => setFormData({ ...formData, quantity: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs font-medium text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                      className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs font-medium text-emerald-950 focus:outline-none focus:border-emerald-500"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                  <label className="block text-xs font-bold text-emerald-950 mb-1">
                     Specific Plant Requirements / Notes
                   </label>
                   <textarea
@@ -190,7 +190,7 @@ export default function LandscapingSection() {
                     placeholder="Specify plant varieties, delivery location state, or preferred transport date..."
                     value={formData.notes}
                     onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs font-medium text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                    className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs font-medium text-emerald-950 focus:outline-none focus:border-emerald-500"
                   />
                 </div>
 

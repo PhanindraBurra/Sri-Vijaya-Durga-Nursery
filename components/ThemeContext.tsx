@@ -12,28 +12,14 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("light");
-
   useEffect(() => {
-    const savedTheme = localStorage.getItem("svdn-theme") as Theme | null;
-    if (savedTheme) {
-      setTheme(savedTheme);
-      document.documentElement.classList.toggle("dark", savedTheme === "dark");
-    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-      document.documentElement.classList.add("dark");
-    }
+    // Strictly enforce light theme across mobile and desktop
+    document.documentElement.classList.remove("dark");
+    localStorage.setItem("svdn-theme", "light");
   }, []);
 
-  const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    localStorage.setItem("svdn-theme", newTheme);
-    document.documentElement.classList.toggle("dark", newTheme === "dark");
-  };
-
   return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    <ThemeContext.Provider value={{ theme: "light", toggleTheme: () => {} }}>
       {children}
     </ThemeContext.Provider>
   );

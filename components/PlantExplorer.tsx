@@ -147,14 +147,14 @@ export default function PlantExplorer() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Featured Catalog</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Explore & Enquire Premium Saplings
           </h2>
-          <p className="mt-3 text-base text-emerald-800/80 dark:text-emerald-200/80">
+          <p className="mt-3 text-base text-emerald-800/80">
             Filter our ready-to-ship stock and request instant bulk quotes directly on WhatsApp.
           </p>
         </div>
@@ -171,7 +171,7 @@ export default function PlantExplorer() {
                 className={`px-4 py-2 rounded-xl text-xs font-bold transition-all duration-300 whitespace-nowrap ${
                   selectedCategory === tab.id
                     ? "bg-emerald-600 text-white shadow-md shadow-emerald-600/30"
-                    : "text-emerald-900/70 dark:text-emerald-200/70 hover:bg-emerald-500/10"
+                    : "text-emerald-900/70 hover:bg-emerald-500/10"
                 }`}
               >
                 {tab.label}
@@ -181,13 +181,13 @@ export default function PlantExplorer() {
 
           {/* Search Box */}
           <div className="relative w-full md:w-72">
-            <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-emerald-600 dark:text-emerald-400" />
+            <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-emerald-600" />
             <input
               type="text"
               placeholder="Search plant name or species..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full pl-10 pr-4 py-2 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-emerald-950 dark:text-emerald-100 text-xs font-medium placeholder:text-emerald-700/50 dark:placeholder:text-emerald-400/50 focus:outline-none focus:border-emerald-500"
+              className="w-full pl-10 pr-4 py-2 rounded-xl bg-white/80 border border-emerald-500/20 text-emerald-950 text-xs font-medium placeholder:text-emerald-700/50 focus:outline-none focus:border-emerald-500"
             />
           </div>
 
@@ -222,13 +222,13 @@ export default function PlantExplorer() {
                 {/* Content */}
                 <div className="p-5 flex-1 flex flex-col justify-between">
                   <div>
-                    <span className="text-[10px] font-semibold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 block mb-1">
+                    <span className="text-[10px] font-semibold uppercase tracking-wider text-emerald-600 block mb-1">
                       {plant.botanicalName}
                     </span>
-                    <h3 className="font-serif text-lg font-bold text-emerald-950 dark:text-emerald-50 mb-2">
+                    <h3 className="font-serif text-lg font-bold text-emerald-950 mb-2">
                       {plant.name}
                     </h3>
-                    <p className="text-xs text-emerald-800/80 dark:text-emerald-200/80 line-clamp-2 mb-4 font-light">
+                    <p className="text-xs text-emerald-800/80 line-clamp-2 mb-4 font-light">
                       {plant.description}
                     </p>
                   </div>
@@ -236,7 +236,7 @@ export default function PlantExplorer() {
                   <div className="pt-4 border-t border-emerald-500/15 flex items-center justify-between gap-2">
                     <button
                       onClick={() => setActiveModalPlant(plant)}
-                      className="p-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-800 dark:text-emerald-200 text-xs font-semibold flex items-center gap-1 transition-colors"
+                      className="p-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-800 text-xs font-semibold flex items-center gap-1 transition-colors"
                     >
                       <Info className="w-3.5 h-3.5" />
                       <span>Details</span>
@@ -268,11 +268,11 @@ export default function PlantExplorer() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
-                className="glass-card max-w-lg w-full rounded-3xl overflow-hidden border border-emerald-500/30 shadow-2xl relative p-6 bg-white dark:bg-emerald-950"
+                className="glass-card max-w-lg w-full rounded-3xl overflow-hidden border border-emerald-500/30 shadow-2xl relative p-6 bg-white"
               >
                 <button
                   onClick={() => setActiveModalPlant(null)}
-                  className="absolute top-4 right-4 p-2 rounded-full bg-emerald-500/10 text-emerald-900 dark:text-emerald-100 hover:bg-emerald-500/20"
+                  className="absolute top-4 right-4 p-2 rounded-full bg-emerald-500/10 text-emerald-900 hover:bg-emerald-500/20"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -286,32 +286,32 @@ export default function PlantExplorer() {
                   />
                 </div>
 
-                <span className="text-xs font-semibold text-emerald-600 dark:text-emerald-400 italic">
+                <span className="text-xs font-semibold text-emerald-600 italic">
                   {activeModalPlant.botanicalName}
                 </span>
-                <h3 className="font-serif text-2xl font-bold text-emerald-950 dark:text-emerald-50 mb-2">
+                <h3 className="font-serif text-2xl font-bold text-emerald-950 mb-2">
                   {activeModalPlant.name}
                 </h3>
-                <p className="text-sm text-emerald-800/80 dark:text-emerald-200/80 mb-4">
+                <p className="text-sm text-emerald-800/80 mb-4">
                   {activeModalPlant.description}
                 </p>
 
                 <div className="grid grid-cols-2 gap-3 p-4 rounded-xl bg-emerald-500/10 text-xs mb-6">
                   <div>
-                    <span className="font-bold block text-emerald-950 dark:text-emerald-100">Height / Spec:</span>
-                    <span className="text-emerald-700 dark:text-emerald-300">{activeModalPlant.height}</span>
+                    <span className="font-bold block text-emerald-950">Height / Spec:</span>
+                    <span className="text-emerald-700">{activeModalPlant.height}</span>
                   </div>
                   <div>
-                    <span className="font-bold block text-emerald-950 dark:text-emerald-100">Sunlight:</span>
-                    <span className="text-emerald-700 dark:text-emerald-300">{activeModalPlant.sunlight}</span>
+                    <span className="font-bold block text-emerald-950">Sunlight:</span>
+                    <span className="text-emerald-700">{activeModalPlant.sunlight}</span>
                   </div>
                   <div>
-                    <span className="font-bold block text-emerald-950 dark:text-emerald-100">Water Need:</span>
-                    <span className="text-emerald-700 dark:text-emerald-300">{activeModalPlant.water}</span>
+                    <span className="font-bold block text-emerald-950">Water Need:</span>
+                    <span className="text-emerald-700">{activeModalPlant.water}</span>
                   </div>
                   <div>
-                    <span className="font-bold block text-emerald-950 dark:text-emerald-100">Availability:</span>
-                    <span className="text-amber-600 dark:text-amber-400 font-semibold">{activeModalPlant.wholesaleAvailability}</span>
+                    <span className="font-bold block text-emerald-950">Availability:</span>
+                    <span className="text-amber-600 font-semibold">{activeModalPlant.wholesaleAvailability}</span>
                   </div>
                 </div>
 

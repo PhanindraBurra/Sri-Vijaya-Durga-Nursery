@@ -25,45 +25,45 @@ export default function AboutSection() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-4">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-[#15803d] text-xs font-bold uppercase tracking-wider mb-4">
               <span>Trusted Legacy Since 1948</span>
             </div>
             
-            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50 leading-tight mb-6">
+            <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-[#072314] leading-tight mb-6">
               Rooted in Excellence, Growing India&apos;s Green Future
             </h2>
 
-            <p className="text-base sm:text-lg text-emerald-900/80 dark:text-emerald-200/80 leading-relaxed mb-6">
-              Nestled in the world-renowned nursery capital of <strong className="text-emerald-700 dark:text-emerald-400 font-semibold">Kadiyapulanka, Andhra Pradesh</strong>, Sri Vijaya Durga Nursery has spent over seven decades mastering plant propagation, shade-net acclimatization, and large-scale botanical supply.
+            <p className="text-base sm:text-lg text-[#133b24] leading-relaxed mb-6 font-normal">
+              Nestled in the world-renowned nursery capital of <strong className="text-[#15803d] font-semibold">Kadiyapulanka, Andhra Pradesh</strong>, Sri Vijaya Durga Nursery has spent over seven decades mastering plant propagation, shade-net acclimatization, and large-scale botanical supply.
             </p>
 
-            <p className="text-base text-emerald-800/70 dark:text-emerald-300/70 leading-relaxed mb-8">
+            <p className="text-base text-[#1e4620] leading-relaxed mb-8 font-normal">
               Whether supplying commercial fruit saplings for multi-acre farm orchards, dense avenue trees for highway infrastructure, or luxury ornamental palms for resort landscapes, our commitment to soil health and disease-free genetics ensures maximum survival rates across India.
             </p>
 
             {/* Key Value Cards */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-              <div className="p-4 rounded-2xl glass-card flex flex-col items-center text-center">
-                <Truck className="w-7 h-7 text-emerald-600 dark:text-emerald-400 mb-2" />
-                <h3 className="font-bold text-sm text-emerald-950 dark:text-emerald-100">Pan-India Transport</h3>
-                <p className="text-xs text-emerald-700/70 dark:text-emerald-300/70">Safe logistics network</p>
+              <div className="p-4 rounded-2xl bg-white border border-emerald-500/20 shadow-sm flex flex-col items-center text-center">
+                <Truck className="w-7 h-7 text-[#16a34a] mb-2" />
+                <h3 className="font-bold text-sm text-[#072314]">Pan-India Transport</h3>
+                <p className="text-xs text-[#1e4620]">Safe logistics network</p>
               </div>
 
-              <div className="p-4 rounded-2xl glass-card flex flex-col items-center text-center">
-                <ShieldCheck className="w-7 h-7 text-emerald-600 dark:text-emerald-400 mb-2" />
-                <h3 className="font-bold text-sm text-emerald-950 dark:text-emerald-100">Disease-Free</h3>
-                <p className="text-xs text-emerald-700/70 dark:text-emerald-300/70">Scientifically treated</p>
+              <div className="p-4 rounded-2xl bg-white border border-emerald-500/20 shadow-sm flex flex-col items-center text-center">
+                <ShieldCheck className="w-7 h-7 text-[#16a34a] mb-2" />
+                <h3 className="font-bold text-sm text-[#072314]">Disease-Free</h3>
+                <p className="text-xs text-[#1e4620]">Scientifically treated</p>
               </div>
 
-              <div className="p-4 rounded-2xl glass-card flex flex-col items-center text-center">
-                <TreePine className="w-7 h-7 text-emerald-600 dark:text-emerald-400 mb-2" />
-                <h3 className="font-bold text-sm text-emerald-950 dark:text-emerald-100">Massive Stock</h3>
-                <p className="text-xs text-emerald-700/70 dark:text-emerald-300/70">Ready for bulk supply</p>
+              <div className="p-4 rounded-2xl bg-white border border-emerald-500/20 shadow-sm flex flex-col items-center text-center">
+                <TreePine className="w-7 h-7 text-[#16a34a] mb-2" />
+                <h3 className="font-bold text-sm text-[#072314]">Massive Stock</h3>
+                <p className="text-xs text-[#1e4620]">Ready for bulk supply</p>
               </div>
             </div>
           </motion.div>
 
-          {/* Right Image Showcase with Floating Glass Cards */}
+          {/* Right Image/Video Showcase with Floating Glass Cards */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -83,17 +83,17 @@ export default function AboutSection() {
                 <source src="https://srivijayadurganursery.in/images/DJI_0590.MP4" type="video/mp4" />
               </video>
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/20 pointer-events-none" />
-              <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-emerald-500/80 backdrop-blur-md text-white text-xs font-bold uppercase tracking-wider">
+              <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-emerald-600 text-white text-xs font-bold uppercase tracking-wider shadow-md">
                 Aerial Drone Footage • Kadiyapulanka
               </div>
             </div>
 
             {/* Overlaid Badge */}
-            <div className="absolute -bottom-6 -left-6 sm:bottom-6 sm:left-6 glass-card p-5 rounded-2xl shadow-xl border border-emerald-500/30 max-w-xs">
-              <p className="text-xs font-bold uppercase tracking-wider text-amber-500 dark:text-amber-400 mb-1">
+            <div className="absolute -bottom-6 -left-6 sm:bottom-6 sm:left-6 bg-white p-5 rounded-2xl shadow-xl border border-emerald-500/30 max-w-xs">
+              <p className="text-xs font-bold uppercase tracking-wider text-amber-600 mb-1">
                 Kadiyapulanka Hub
               </p>
-              <p className="text-sm font-semibold text-emerald-950 dark:text-emerald-100">
+              <p className="text-sm font-semibold text-[#072314]">
                 Supplying quality plants to over 20+ Indian states with guaranteed transport.
               </p>
             </div>
@@ -112,18 +112,18 @@ export default function AboutSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="glass-card p-6 rounded-2xl text-center group hover:border-emerald-500/40 transition-colors"
+                className="bg-white p-6 rounded-2xl text-center border border-emerald-500/20 shadow-sm hover:border-emerald-500/40 transition-colors"
               >
-                <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-emerald-500/10 flex items-center justify-center text-emerald-600 dark:text-emerald-400 group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-emerald-500/10 flex items-center justify-center text-[#16a34a]">
                   <Icon className="w-6 h-6" />
                 </div>
-                <h3 className="text-3xl sm:text-4xl font-bold font-serif text-emerald-900 dark:text-emerald-100 mb-1">
+                <h3 className="text-3xl sm:text-4xl font-bold font-serif text-[#072314] mb-1">
                   {stat.number}
                 </h3>
-                <p className="font-semibold text-sm text-emerald-950 dark:text-emerald-200">
+                <p className="font-semibold text-sm text-[#072314]">
                   {stat.label}
                 </p>
-                <p className="text-xs text-emerald-700/70 dark:text-emerald-300/70 mt-0.5">
+                <p className="text-xs text-[#1e4620] mt-0.5">
                   {stat.desc}
                 </p>
               </motion.div>

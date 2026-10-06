@@ -10,11 +10,11 @@ export default function FloatingWhatsApp() {
     <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
       {/* Tooltip Popup */}
       {tooltipVisible && (
-        <div className="hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-2xl bg-white dark:bg-emerald-950 text-emerald-950 dark:text-emerald-100 text-xs font-semibold shadow-xl border border-emerald-500/30 animate-bounce">
+        <div className="hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-2xl bg-white text-emerald-950 text-xs font-semibold shadow-xl border border-emerald-500/30 animate-bounce">
           <span>Need bulk plant quote? Chat on WhatsApp!</span>
           <button
             onClick={() => setTooltipVisible(false)}
-            className="p-1 rounded-full text-emerald-600 hover:text-emerald-900 dark:hover:text-white"
+            className="p-1 rounded-full text-emerald-600 hover:text-emerald-900"
           >
             <X className="w-3.5 h-3.5" />
           </button>

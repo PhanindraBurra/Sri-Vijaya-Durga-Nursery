@@ -60,11 +60,11 @@ export default function TestimonialsSection() {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Real Client Reviews</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Trusted Nationwide Across Projects
           </h2>
         </div>
@@ -90,15 +90,15 @@ export default function TestimonialsSection() {
               </div>
 
               {/* Quote Content */}
-              <p className="font-serif text-lg sm:text-2xl text-emerald-950 dark:text-emerald-50 leading-relaxed italic mb-8">
+              <p className="font-serif text-lg sm:text-2xl text-emerald-950 leading-relaxed italic mb-8">
                 &ldquo;{testimonials[activeIdx].content}&rdquo;
               </p>
 
               {/* Client Info */}
-              <h3 className="font-bold text-base text-emerald-900 dark:text-emerald-100">
+              <h3 className="font-bold text-base text-emerald-900">
                 {testimonials[activeIdx].name}
               </h3>
-              <p className="text-xs text-emerald-700 dark:text-emerald-300">
+              <p className="text-xs text-emerald-700">
                 {testimonials[activeIdx].role} • <span className="font-semibold text-amber-500">{testimonials[activeIdx].location}</span>
               </p>
             </motion.div>
@@ -108,7 +108,7 @@ export default function TestimonialsSection() {
           <div className="flex items-center justify-between mt-8 pt-6 border-t border-emerald-500/15">
             <button
               onClick={prevSlide}
-              className="p-3 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-800 dark:text-emerald-200 transition-colors"
+              className="p-3 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-800 transition-colors"
               aria-label="Previous Testimonial"
             >
               <ChevronLeft className="w-5 h-5" />
@@ -128,7 +128,7 @@ export default function TestimonialsSection() {
 
             <button
               onClick={nextSlide}
-              className="p-3 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-800 dark:text-emerald-200 transition-colors"
+              className="p-3 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-800 transition-colors"
               aria-label="Next Testimonial"
             >
               <ChevronRight className="w-5 h-5" />

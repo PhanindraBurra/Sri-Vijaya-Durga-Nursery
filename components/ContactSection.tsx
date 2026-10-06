@@ -27,14 +27,14 @@ export default function ContactSection() {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Connect With SVDN</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Visit Our Nursery or Contact Us
           </h2>
-          <p className="mt-3 text-base text-emerald-800/80 dark:text-emerald-200/80">
+          <p className="mt-3 text-base text-emerald-800/80">
             We welcome farm owners, contractors, and nursery buyers to inspect our stock in Kadiyapulanka.
           </p>
         </div>
@@ -48,11 +48,11 @@ export default function ContactSection() {
             rel="noopener noreferrer"
             className="glass-card p-6 rounded-3xl border border-emerald-500/20 hover:border-emerald-500/40 flex flex-col items-center text-center group transition-all"
           >
-            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
               <MapPin className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-sm text-emerald-950 dark:text-emerald-100 mb-1">Nursery Address</h3>
-            <p className="text-xs text-emerald-800/80 dark:text-emerald-200/80 leading-snug">
+            <h3 className="font-bold text-sm text-emerald-950 mb-1">Nursery Address</h3>
+            <p className="text-xs text-emerald-800/80 leading-snug">
               Kadiyapulanka, Rajahmundry,<br />Andhra Pradesh - 533126
             </p>
           </a>
@@ -61,14 +61,14 @@ export default function ContactSection() {
             href="tel:+919160122226"
             className="glass-card p-6 rounded-3xl border border-emerald-500/20 hover:border-emerald-500/40 flex flex-col items-center text-center group transition-all"
           >
-            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
               <Phone className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-sm text-emerald-950 dark:text-emerald-100 mb-1">Phone / Call</h3>
-            <p className="text-xs text-emerald-800/80 dark:text-emerald-200/80 font-semibold">
+            <h3 className="font-bold text-sm text-emerald-950 mb-1">Phone / Call</h3>
+            <p className="text-xs text-emerald-800/80 font-semibold">
               +91 9160122226
             </p>
-            <span className="text-[10px] text-emerald-600 dark:text-emerald-400 mt-1">Click to Call Now</span>
+            <span className="text-[10px] text-emerald-600 mt-1">Click to Call Now</span>
           </a>
 
           <a
@@ -77,28 +77,28 @@ export default function ContactSection() {
             rel="noopener noreferrer"
             className="glass-card p-6 rounded-3xl border border-emerald-500/20 hover:border-emerald-500/40 flex flex-col items-center text-center group transition-all"
           >
-            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
               <MessageSquare className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-sm text-emerald-950 dark:text-emerald-100 mb-1">WhatsApp Chat</h3>
-            <p className="text-xs text-emerald-800/80 dark:text-emerald-200/80 font-semibold">
+            <h3 className="font-bold text-sm text-emerald-950 mb-1">WhatsApp Chat</h3>
+            <p className="text-xs text-emerald-800/80 font-semibold">
               +91 9160122226
             </p>
-            <span className="text-[10px] text-emerald-600 dark:text-emerald-400 mt-1">Instant Photo & Price Quote</span>
+            <span className="text-[10px] text-emerald-600 mt-1">Instant Photo & Price Quote</span>
           </a>
 
           <a
             href="mailto:Svdn.plants@gmail.com"
             className="glass-card p-6 rounded-3xl border border-emerald-500/20 hover:border-emerald-500/40 flex flex-col items-center text-center group transition-all"
           >
-            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
               <Mail className="w-6 h-6" />
             </div>
-            <h3 className="font-bold text-sm text-emerald-950 dark:text-emerald-100 mb-1">Email Support</h3>
-            <p className="text-xs text-emerald-800/80 dark:text-emerald-200/80 font-semibold truncate max-w-[180px]">
+            <h3 className="font-bold text-sm text-emerald-950 mb-1">Email Support</h3>
+            <p className="text-xs text-emerald-800/80 font-semibold truncate max-w-[180px]">
               Svdn.plants@gmail.com
             </p>
-            <span className="text-[10px] text-emerald-600 dark:text-emerald-400 mt-1">Formal Tender Queries</span>
+            <span className="text-[10px] text-emerald-600 mt-1">Formal Tender Queries</span>
           </a>
 
         </div>
@@ -108,10 +108,10 @@ export default function ContactSection() {
           
           {/* Left: Contact Form */}
           <div className="lg:col-span-6 glass-card p-8 rounded-3xl border border-emerald-500/30 shadow-xl">
-            <h3 className="font-serif text-2xl font-bold text-emerald-950 dark:text-emerald-50 mb-2">
+            <h3 className="font-serif text-2xl font-bold text-emerald-950 mb-2">
               Send Us a Message
             </h3>
-            <p className="text-xs text-emerald-800/70 dark:text-emerald-300/70 mb-6">
+            <p className="text-xs text-emerald-800/70 mb-6">
               Have a custom plant requirement or farm query? Drop a message below.
             </p>
 
@@ -120,10 +120,10 @@ export default function ContactSection() {
                 <div className="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-500 mx-auto flex items-center justify-center">
                   <CheckCircle2 className="w-10 h-10" />
                 </div>
-                <h4 className="font-serif text-2xl font-bold text-emerald-950 dark:text-emerald-50">
+                <h4 className="font-serif text-2xl font-bold text-emerald-950">
                   Message Sent Successfully!
                 </h4>
-                <p className="text-xs text-emerald-800/80 dark:text-emerald-200/80">
+                <p className="text-xs text-emerald-800/80">
                   Thank you for reaching out to Sri Vijaya Durga Nursery. We will get back to you shortly.
                 </p>
                 <button
@@ -136,7 +136,7 @@ export default function ContactSection() {
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                  <label className="block text-xs font-bold text-emerald-950 mb-1">
                     Your Name *
                   </label>
                   <input
@@ -145,13 +145,13 @@ export default function ContactSection() {
                     placeholder="Enter your name"
                     value={contactForm.name}
                     onChange={(e) => setContactForm({ ...contactForm, name: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                    className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs text-emerald-950 focus:outline-none focus:border-emerald-500"
                   />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                    <label className="block text-xs font-bold text-emerald-950 mb-1">
                       Phone Number *
                     </label>
                     <input
@@ -160,11 +160,11 @@ export default function ContactSection() {
                       placeholder="+91 91601 22226"
                       value={contactForm.phone}
                       onChange={(e) => setContactForm({ ...contactForm, phone: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                      className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs text-emerald-950 focus:outline-none focus:border-emerald-500"
                     />
                   </div>
                   <div>
-                    <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                    <label className="block text-xs font-bold text-emerald-950 mb-1">
                       Email Address
                     </label>
                     <input
@@ -172,13 +172,13 @@ export default function ContactSection() {
                       placeholder="your.email@gmail.com"
                       value={contactForm.email}
                       onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
-                      className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                      className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs text-emerald-950 focus:outline-none focus:border-emerald-500"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-emerald-950 dark:text-emerald-100 mb-1">
+                  <label className="block text-xs font-bold text-emerald-950 mb-1">
                     Message / Query Details *
                   </label>
                   <textarea
@@ -187,7 +187,7 @@ export default function ContactSection() {
                     placeholder="Tell us what plants you need, quantities, or visit date..."
                     value={contactForm.message}
                     onChange={(e) => setContactForm({ ...contactForm, message: e.target.value })}
-                    className="w-full px-4 py-2.5 rounded-xl bg-white/50 dark:bg-emerald-950/50 border border-emerald-500/20 text-xs text-emerald-950 dark:text-emerald-100 focus:outline-none focus:border-emerald-500"
+                    className="w-full px-4 py-2.5 rounded-xl bg-white/80 border border-emerald-500/20 text-xs text-emerald-950 focus:outline-none focus:border-emerald-500"
                   />
                 </div>
 

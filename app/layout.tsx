@@ -29,6 +29,10 @@ export const metadata: Metadata = {
     "Landscaping Plants Rajahmundry",
   ],
   authors: [{ name: "Sri Vijaya Durga Nursery" }],
+  other: {
+    "color-scheme": "light",
+    "supported-color-schemes": "light",
+  },
   openGraph: {
     title: "Sri Vijaya Durga Nursery | Premium Wholesale Plant Nursery",
     description:
@@ -100,14 +104,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${poppins.variable}`}>
+    <html lang="en" className={`light ${playfair.variable} ${poppins.variable}`}>
       <head>
+        <meta name="color-scheme" content="light" />
+        <meta name="supported-color-schemes" content="light" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="antialiased min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white">
+      <body className="antialiased min-h-screen flex flex-col selection:bg-emerald-500 selection:text-white bg-white text-emerald-950">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>

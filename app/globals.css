@@ -1,52 +1,67 @@
 @import "tailwindcss";
 
-@layer base {
-  :root {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8faf8;
-    --bg-card: #ffffff;
-    --bg-glass: rgba(255, 255, 255, 0.92);
-    --border-color: rgba(22, 163, 74, 0.15);
-    --text-main: #0f291e;
-    --text-muted: #475569;
-    
-    /* Logo Colors */
-    --svdn-leaf: #16a34a;
-    --svdn-leaf-hover: #15803d;
-    --svdn-blue: #0284c7;
-    --svdn-gold: #d4af37;
+/* Strictly Force Light Theme Across All Mobile and Desktop Browsers */
+:root {
+  color-scheme: light !important;
+  supported-color-schemes: light !important;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8faf8;
+  --bg-card: #ffffff;
+  --bg-glass: rgba(255, 255, 255, 0.95);
+  --border-color: rgba(22, 163, 74, 0.2);
+  --text-main: #072314;
+  --text-muted: #1e4620;
+  
+  --svdn-leaf: #16a34a;
+  --svdn-leaf-hover: #15803d;
+  --svdn-blue: #0284c7;
+  --svdn-gold: #d4af37;
 
-    --shadow-soft: 0 10px 30px -10px rgba(15, 41, 30, 0.08);
-    --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --shadow-soft: 0 10px 30px -10px rgba(15, 41, 30, 0.08);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root, html, body {
+    color-scheme: light !important;
+    background-color: #ffffff !important;
+    color: #072314 !important;
   }
 }
 
 html {
+  color-scheme: light !important;
   scroll-behavior: smooth;
+  background-color: #ffffff !important;
+  color: #072314 !important;
 }
 
 body {
-  background-color: var(--bg-primary);
-  color: var(--text-main);
+  background-color: #ffffff !important;
+  color: #072314 !important;
   overflow-x: hidden;
   font-family: var(--font-poppins), sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, .font-serif {
   font-family: var(--font-playfair), serif;
+  color: #072314;
 }
 
-/* Glassmorphism helpers for White theme */
+/* Solid high-contrast text color overrides to prevent mobile force-dark opacity inversion */
+p {
+  color: #133b24;
+}
+
 .glass-card {
-  background: var(--bg-card);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-card);
+  background-color: #ffffff !important;
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
 }
 
 .glass-nav {
-  background: var(--bg-glass);
+  background-color: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
@@ -74,9 +89,9 @@ h1, h2, h3, h4, .font-serif {
   background: #f1f5f9;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--svdn-leaf);
+  background: #16a34a;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--svdn-leaf-hover);
+  background: #15803d;
 }

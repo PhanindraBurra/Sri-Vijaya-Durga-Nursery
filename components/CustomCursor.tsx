@@ -64,7 +64,7 @@ export default function CustomCursor() {
       />
       {/* Tiny Leaf Dot */}
       <motion.div
-        className="fixed top-0 left-0 w-2 h-2 rounded-full bg-emerald-500 dark:bg-emerald-400"
+        className="fixed top-0 left-0 w-2 h-2 rounded-full bg-emerald-500"
         animate={{
           x: mousePosition.x - 4,
           y: mousePosition.y - 4,

@@ -54,7 +54,7 @@ export default function Navbar() {
             >
               Sri Vijaya Durga Nursery
             </span>
-            <span className="text-[9px] sm:text-[11px] font-semibold tracking-wider text-emerald-600 dark:text-emerald-400 uppercase">
+            <span className="text-[9px] sm:text-[11px] font-semibold tracking-wider text-emerald-600 uppercase">
               Kadiyapulanka • Est. 1948
             </span>
           </div>

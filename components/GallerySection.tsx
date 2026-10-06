@@ -30,14 +30,14 @@ export default function GallerySection() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Nursery Photo Showcase</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Life at Sri Vijaya Durga Nursery
           </h2>
-          <p className="mt-3 text-base text-emerald-800/80 dark:text-emerald-200/80">
+          <p className="mt-3 text-base text-emerald-800/80">
             Take a visual tour of our green fields, propagating beds, shade structures, and Pan-India transport dispatches.
           </p>
         </div>

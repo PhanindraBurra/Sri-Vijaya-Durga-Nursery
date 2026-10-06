@@ -113,15 +113,15 @@ export default function CategoriesSection() {
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+            <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>Plant Collections</span>
             </div>
-            <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+            <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
               Explore Our Botanical Categories
             </h2>
           </div>
-          <p className="text-base text-emerald-800/80 dark:text-emerald-200/80 max-w-md">
+          <p className="text-base text-emerald-800/80 max-w-md">
             Over 300+ botanical varieties grown in our Kadiyapulanka acres, ready for wholesale delivery across India.
           </p>
         </div>

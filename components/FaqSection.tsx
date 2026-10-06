@@ -40,11 +40,11 @@ export default function FaqSection() {
         
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 dark:text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-700 text-xs font-semibold uppercase tracking-wider mb-3">
             <Sparkles className="w-3.5 h-3.5 text-amber-500" />
             <span>Frequently Asked Questions</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950 dark:text-emerald-50">
+          <h2 className="font-serif text-3xl sm:text-5xl font-bold tracking-tight text-emerald-950">
             Got Questions? We Have Answers.
           </h2>
         </div>
@@ -64,11 +64,11 @@ export default function FaqSection() {
                 >
                   <div className="flex items-center gap-3">
                     <HelpCircle className="w-5 h-5 text-emerald-500 shrink-0" />
-                    <h3 className="font-serif text-base sm:text-lg font-bold text-emerald-950 dark:text-emerald-50">
+                    <h3 className="font-serif text-base sm:text-lg font-bold text-emerald-950">
                       {faq.question}
                     </h3>
                   </div>
-                  <div className={`p-2 rounded-full bg-emerald-500/10 text-emerald-700 dark:text-emerald-300 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>
+                  <div className={`p-2 rounded-full bg-emerald-500/10 text-emerald-700 transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}>
                     <ChevronDown className="w-4 h-4" />
                   </div>
                 </button>
@@ -80,7 +80,7 @@ export default function FaqSection() {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       transition={{ duration: 0.3 }}
-                      className="px-6 pb-6 pt-1 text-sm text-emerald-900/80 dark:text-emerald-200/80 leading-relaxed border-t border-emerald-500/10"
+                      className="px-6 pb-6 pt-1 text-sm text-emerald-900/80 leading-relaxed border-t border-emerald-500/10"
                     >
                       <p>{faq.answer}</p>
                     </motion.div>
